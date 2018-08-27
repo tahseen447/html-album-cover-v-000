@@ -1,8 +1,6 @@
 @font-face {
   font-family: 'Avenir Next Condensed';
   src: url('https://s3.amazonaws.com/learn-verified/Avenir+Next+Condensed.ttc');
-  font-weight: normal;
-  font-style: normal;
 }
 
 * {
@@ -23,7 +21,7 @@ body {
   background: -ms-linear-gradient(top,  rgba(79,79,79,1) 0%,rgba(19,19,19,1) 57%,rgba(19,19,19,1) 100%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(79,79,79,1) 0%,rgba(19,19,19,1) 57%,rgba(19,19,19,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#131313',GradientType=0 ); /* IE6-8 */
-  font-family: 'Avenir Next Condensed', Helvetica, sans-serif;
+  font-family: 'Avenir Next Condensed', 'Arial Narrow', sans-serif;
   font-size: 100%;
 }
 
@@ -51,7 +49,8 @@ h3 {
 h4 {
   font-weight: normal;
   font-size: .7em;
-  margin-bottom: 18px;
+  letter-spacing: .4em;
+  margin-bottom: 9px;
   line-height: 1em;
 }
 
@@ -64,7 +63,7 @@ p {
 
 span {
   display: inline-block;
-  font-size: 1em;
+  font-size: 0.5;
   line-height: 1em;
   letter-spacing: .35em;
   vertical-align: top;
